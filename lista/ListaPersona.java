@@ -24,10 +24,12 @@ public class ListaPersona{
 		if(ocupacion == 1) {
 			System.out.println("Digite el promedio");
 			promedio = entrada.nextDouble();
+			System.out.println("El nombre: "+ nombre + " edad "+ edad+ "promedio"+ promedio);
 		}
 		if (ocupacion ==2) {
 			System.out.println("Digite el salario");
 			salario = entrada.nextDouble();
+			System.out.println("El nombre: "+ nombre + " edad "+ edad+ "salario"+salario);
 		}
 		
 		
